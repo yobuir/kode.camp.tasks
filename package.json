@@ -1,0 +1,21 @@
+{
+  "name": "kcodetest",
+  "version": "1.0.0",
+  "description": "kodecamp node js test",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "kodecamp"
+  ],
+  "author": "Yobu Iradukunda",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1", 
+    "fs": "^0.0.1-security", 
+    "nodemon": "^3.0.1"
+  }
+}

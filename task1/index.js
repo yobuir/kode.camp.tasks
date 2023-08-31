@@ -14,6 +14,9 @@ function processItem(item, callback) {
   }, 1000);
 }
 
+
+
+
 async.mapSeries(numbers, processItem, (err, results) => {
   if (err) {
     console.error('Error:', err);
@@ -21,6 +24,11 @@ async.mapSeries(numbers, processItem, (err, results) => {
     console.log('All items processed:', results);
   }
 });
+
+
+
+
+
 
 
 // Define source and destination directories
